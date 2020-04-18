@@ -77,4 +77,6 @@
         </main>
     </div>
 </body>
+
+<script src="js/app.js">
 </html>
