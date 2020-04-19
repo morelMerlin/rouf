@@ -1,21 +1,46 @@
 <template>
-
     <div class="container">
         
         <b-list-group>
-          <b-list-group-item>Cras justo odio</b-list-group-item>
-          <b-list-group-item>Dapibus ac facilisis in</b-list-group-item>
-          <b-list-group-item>Morbi leo risus</b-list-group-item>
-          <b-list-group-item>Porta ac consectetur ac</b-list-group-item>
-          <b-list-group-item>Vestibulum at eros</b-list-group-item>
+          <b-list-group-item class="annonce">
+            <div class='caroussel'>
+              photo de la maison
+            </div>
+
+            <div class="description">
+            
+              <div class="header">
+                <div class="title">
+                  2 chambre Salon a Abidjan
+                </div>
+
+                <div class="name">
+                  Maison De Luxe
+                </div>
+
+                <div class="like">
+                  like
+                </div>
+
+              </div>
+
+              <div  class="assets">
+                2chambres - 2douches WC-1balcon-1cuisne 
+              </div>
+            </div>
+
+            <div class="price">
+              50.000Fcfa/mois
+            </div>
+            
+          </b-list-group-item>
         </b-list-group>
         
-    </div>
-    
+    </div>   
 </template>
 
 <script>
 export default {
-    
+
 }
 </script>

@@ -1957,6 +1957,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -78147,15 +78165,29 @@ var render = function() {
       _c(
         "b-list-group",
         [
-          _c("b-list-group-item", [_vm._v("Cras justo odio")]),
-          _vm._v(" "),
-          _c("b-list-group-item", [_vm._v("Dapibus ac facilisis in")]),
-          _vm._v(" "),
-          _c("b-list-group-item", [_vm._v("Morbi leo risus")]),
-          _vm._v(" "),
-          _c("b-list-group-item", [_vm._v("Porta ac consectetur ac")]),
-          _vm._v(" "),
-          _c("b-list-group-item", [_vm._v("Vestibulum at eros")])
+          _c("b-list-group-item", { staticClass: "annonce" }, [
+            _c("div", { staticClass: "caroussel" }, [
+              _vm._v("\n          photo de la maison\n        ")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "description" }, [
+              _c("div", { staticClass: "title" }, [
+                _vm._v("\n            2 chambre Salon a Abidjan\n          ")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "name" }, [
+                _vm._v("\n            Maison De Luxe\n          ")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "assets" }, [
+                _vm._v("\n            1 chambre \n          ")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "price" }, [
+              _vm._v("\n          50.000Fcfa/mois\n        ")
+            ])
+          ])
         ],
         1
       )
@@ -90571,14 +90603,15 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************!*\
   !*** ./resources/js/components/annonce.vue ***!
   \*********************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _annonce_vue_vue_type_template_id_002eff32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./annonce.vue?vue&type=template&id=002eff32& */ "./resources/js/components/annonce.vue?vue&type=template&id=002eff32&");
 /* harmony import */ var _annonce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./annonce.vue?vue&type=script&lang=js& */ "./resources/js/components/annonce.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _annonce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _annonce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -90608,7 +90641,7 @@ component.options.__file = "resources/js/components/annonce.vue"
 /*!**********************************************************************!*\
   !*** ./resources/js/components/annonce.vue?vue&type=script&lang=js& ***!
   \**********************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

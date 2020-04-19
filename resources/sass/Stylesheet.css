@@ -1,0 +1,18 @@
+.annonce {
+  padding-top: 8px;
+  padding-bottom: 12px;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+}
+.annonce .caroussel {
+  background-color: #0084ff;
+  width: 250px;
+}
+.annonce .description {
+  background-color: #ff009d;
+  width: 400px;
+}
+.annonce .price {
+  background-color: #2bff00;
+}
