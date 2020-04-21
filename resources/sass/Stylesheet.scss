@@ -18,3 +18,107 @@
         background-color: rgb(43, 255, 0) ;
     }
 }
+footer{
+    background-color: rgb(160, 157, 157);
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+//imported Css from hom home page
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.img {
+    .welcome{
+        height: 300px;
+    }
+    
+}
+//end of imported CSS
+
+.landingCaroussel{
+    background-color:rgb(139, 75, 75);
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.propositionValueBox{
+    width: 500px;
+    background-color:rgb(92, 75, 139);
+    height: 260px;
+    margin-left: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.message{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    //to delete
+    font-size: 20px;
+
+}
+
+.propositionValue{
+    margin-top: 20px;
+
+    //to delete
+    font-size: 25px;
+}

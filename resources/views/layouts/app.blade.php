@@ -73,10 +73,13 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4 landing">
             @yield('content')
         </main>
     </div>
+    <footer>
+        <strong><h1> This is The footer</h1></strong>
+    </footer>
 </body>
 
 <script src="js/app.js">

@@ -10,7 +10,7 @@
             <div class="description">
             
               <div class="header">
-                <div class="title">
+                <div class="annonceTitle">
                   2 chambre Salon a Abidjan
                 </div>
 
